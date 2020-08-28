@@ -31,3 +31,5 @@ services:
       - MYSQL_ROOT_PASSWORD=root
       # この設定はオプション、イメージの起動時に作成されるデータベース名
       - MYSQL_DATABASE=sample
+    ports:
+      - "3306:3306"
